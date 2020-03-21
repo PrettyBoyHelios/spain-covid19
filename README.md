@@ -1,12 +1,12 @@
 # Spain COVID19 Analysis
 
 **Maintained by**  
-Efrén González, Manuel Rodríguez, Luis Correa & Sebastián Franco  
+Efrén González & Luis Correa
 
 ## Run Instructions
 
-Assuming you have a new venv and Python 3.7.7 or higher.  
+Assuming you have a new venv and Python 3.7 or higher.  
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 jupyter notebook
 ```
