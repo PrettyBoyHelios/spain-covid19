@@ -40,7 +40,7 @@ class DataPoint:
         self.date = datetime.strptime(info['dateRep'], FORMAT_STR)
         self.cases = int(info['cases'])
         self.deaths = int(info['deaths'])
-        self.pop_size = info['popData2018']
+        self.pop_size = info['popData2019']
 
     def get_date(self):
         return self.date
